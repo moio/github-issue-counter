@@ -5,8 +5,8 @@ import github3, json, os.path
 from json_helpers import DateTimeEncoder
 
 GITHUB_TOKEN = 'INSERTYOURSECRETGITHUBAPIKEYHERE'
-ORG = 'owncloud'
-REPO = 'core'
+ORG = 'SUSE'
+REPO = 'spacewalk'
 FILENAME_ISSUES = ORG + 'issues.json'
 
 data = {}
